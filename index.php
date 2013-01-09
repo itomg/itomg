@@ -13,6 +13,7 @@
 	<title>Home - Itomg</title>
 </head>
 <body>
-<?php echo 'Hello world!';?>
+<h1><?php echo 'Hello world!';?></h1>
+<a href="qqlogin.php">QQ Login</a>
 </body>
 </html>
