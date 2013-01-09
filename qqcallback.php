@@ -6,7 +6,7 @@ if ( ! empty($access_token)) {
 	$openid = $qc->get_openid();
 	if ( ! empty($openid)) {
 		echo $openid;
-		$qc = new QC($openid, $access_token);
+		$qc = new QC($access_token, $openid);
 		$ret = $qc->get_info();
 		echo '<pre>';
 		print_r($ret);
