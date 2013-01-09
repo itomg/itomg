@@ -10,7 +10,7 @@
 	
 	<meta property="qc:admins" content="34510734776147576375" />
 	
-	<title>My Dashboard - Tradesparq</title>
+	<title>Home - Itomg</title>
 </head>
 <body>
 <?php echo 'Hello world!';?>
