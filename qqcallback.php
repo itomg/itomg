@@ -13,7 +13,7 @@ if ( ! empty($access_token)) {
 			$profile->email = "";
 			$profile->{'first-name'} = $user_info['nickname'];
 			$profile->{'last-name'} = "";
-			$profile->{'lang'} = $this->session->userdata('lang');
+// 			$profile->{'lang'} = $this->session->userdata('lang');
 				
 			// get user head picture
 			if(isset($user_info['figureurl_2']) && ! empty($user_info['figureurl_2'])){
