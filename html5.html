@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Itomg">
+	<meta name="author" content="Jimmy Zhao">
+
+	<meta property="qc:admins" content="34510734776147576375" />
+
+	<title>Home - Itomg</title>
+</head>
+<body>
+
+
+	<form class="form-horizontal" action="public/user/login" method="post" name="formLogin">
+	  <div class="control-group mt-15">
+	    <div class="controls">
+	      <input type="email" name="login[email]" required  novalidate id="loginEmail" placeholder="e-mail:">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <div class="controls">
+	      <input type="password" name="login[password]" required autofocus id="loginPassword" placeholder="password:">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <div class="controls cf">
+	      <button type="submit" class="btn btn-primary btn-large">login</button>
+	      <label class="checkbox">
+	        <input type="checkbox" name="login[auto_login]" value="true" checked>remember_me
+	      </label>
+          <!-- Jimmy: need design -->
+	    </div>
+
+	  </div>
+      <a class="controls" rel="nofollow" href="public/user/forget_password">forget_password</a>
+	</form>
+
+	<style>
+	   #foo-thing:valid + .msg { visibility: visible!important; }
+	</style>
+
+	<input type="text" id="foo-thing" required="required">
+	<span class="msg" style="visibility: hidden;">Yay not empty</span>
+
+
+</body>
+</html>

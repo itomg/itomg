@@ -1,0 +1,21 @@
+{
+    "name": "Itomg",
+    "version": "0.0.0",
+    "description": "Itomg =====",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/itomg/itomg.git"
+    },
+    "author": "Jimmy",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "8421a780bcee0c253db3ce4ee7b7ece309a9bab7",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-uglify": "*"
+    }
+}

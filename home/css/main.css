@@ -1,0 +1,82 @@
+body {
+	background: url(../img/concrete_wall_2.png) repeat 0 0;
+	padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: 59px;
+    line-height: 60px;
+}
+
+p, div {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+/* <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	h1 {
+	    font-family: 'Lobster', Georgia, Times, serif;
+	    font-size: 70px;
+	    line-height: 100px;
+	}
+
+	p {
+	    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+	</style> -->
+
+	<!-- <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	h1 {
+	    font-family: 'Lobster', Georgia, Times, serif;
+	    font-size: 70px;
+	    line-height: 100px;
+	}
+
+	p {
+	    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+	</style> -->
+
+	<!-- <link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Allerta" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	h1 {
+	    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+	    font-size: 50px;
+	    line-height: 55px;
+	}
+
+	p {
+	    font-family: 'Crimson Text', Georgia, Times, serif;
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+	</style> -->
+
+	<!-- <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	h1 {
+	    font-family: 'Arvo', Georgia, Times, serif;
+	    font-size: 59px;
+	    line-height: 70px;
+	}
+
+	p {
+	    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+	</style>
+*/
