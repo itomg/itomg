@@ -17,10 +17,8 @@
 	<title>Welcome to IT OMG</title>
 </head>
 <body>
-	<h1>是的，看起来什么也没有！</h1>
-
 	<h1>Looks nothing</h1>
 
-	<p>Yes</p>
+	<p>Yes, 看起来什么也没有！</p>
 </body>
 </html>
