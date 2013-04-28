@@ -16,6 +16,7 @@
     "gitHead": "8421a780bcee0c253db3ce4ee7b7ece309a9bab7",
     "devDependencies": {
         "grunt": "~0.4.1",
-        "grunt-contrib-uglify": "*"
+        "grunt-contrib-uglify": "*",
+	"memcached": "*"
     }
 }
