@@ -18,7 +18,7 @@
 
 	<script type="text/javascript">
 	var _hmt = _hmt || [];
-	(function (argument) {
+	(function () {
 		var hm = document.createElement('script');
 		hm.src = "//hm.baidu.com/h.js%3F9a2bd72ceec23d9de52e5b8514e45ad1";
 		var s = document.getElementsByTagName('script')[0];
