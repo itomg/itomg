@@ -15,20 +15,15 @@
 	<link href="home/css/main.css" rel="stylesheet" type="text/css">
 
 	<title>Welcome to IT OMG</title>
-
-	<script type="text/javascript">
-	var _hmt = _hmt || [];
-	(function () {
-		var hm = document.createElement('script');
-		hm.src = "//hm.baidu.com/h.js%3F9a2bd72ceec23d9de52e5b8514e45ad1";
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
 </head>
 <body>
 	<h1>Looks nothing</h1>
 
 	<p>Yes, 看起来什么也没有！</p>
+
+	<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9a2bd72ceec23d9de52e5b8514e45ad1' type='text/javascript'%3E%3C/script%3E"));
+	</script>
 </body>
 </html>
