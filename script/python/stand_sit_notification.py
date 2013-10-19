@@ -7,6 +7,11 @@ import sys
 import time
 import pynotify
 
+# stand_time = 900
+# sit_time = 600
+stand_time = 300
+sit_time = 180
+
 def notify(title, msg):
 	n = pynotify.Notification(
 		title,
@@ -24,14 +29,14 @@ def sit():
 	msg = "It's time to sit down work now, don't stand too long for your health!!!"
 	notify(title, msg)
 
-def run(inc = 900):
+def run(inc = stand_time):
 	while True:
-		if inc == 900:
+		if inc == stand_time:
 			stand()
-			inc = 600
+			inc = sit_time
 		else:
 			sit()
-			inc = 900
+			inc = stand_time
 		time.sleep(inc)
 
 if __name__ == '__main__':
